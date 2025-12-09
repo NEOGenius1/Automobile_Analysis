@@ -64,11 +64,13 @@ customers satisfaction and The Manufacturers wanted to know the following*
   pd.read_excel(r"C:\Users\USER-PC\Desktop\ALL ORIGINAL DATA FILES\automobile_data .xlsx")
   genius = pd.read_excel(r"C:\Users\USER-PC\Desktop\ALL ORIGINAL DATA FILES\automobile_data .xlsx")
 
-  genius.groupby(["fuel_system"])[["city_mpg","highway_mpg"]].agg(["mean","count"]).plot(kind = "bar", title = "Fuel_System By MPG")
+  genius.groupby(["fuel_system"])[["city_mpg","highway_mpg"]].agg(["mean","count"]).plot(kind = "bar", title = "Fuel_System By MPG")```
 
-  genius[genius["fuel_type"]=="diesel"]
 
-  
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9de2ab2f-9692-47d9-9d97-7827711f74d2" />
+
+
 
 ***KEY FINDINGS***
 
@@ -78,7 +80,6 @@ into how they can improve Fuel_Types efficiency and maximise market opportunitie
 *1.) This analysis shows that each Vehicle makes and their cost, fuel_type and fuel_system varies.*
 *2.) The analysis also show us the make with the highest number of Vehicle base on cost and horsepower etc.*
 
-<img width="542" height="472" alt="image" src="https://github.com/user-attachments/assets/43da01c0-f9e2-4571-9926-971926dcc4e2" />
 
 
 
