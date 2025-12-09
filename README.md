@@ -67,11 +67,6 @@ customers satisfaction and The Manufacturers wanted to know the following*
   genius.groupby(["fuel_system"])[["city_mpg","highway_mpg"]].agg(["mean","count"]).plot(kind = "bar", title = "Fuel_System By MPG")```
 
 
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9de2ab2f-9692-47d9-9d97-7827711f74d2" />
-
-
-
 ***KEY FINDINGS***
 
 *Visualising the data and creating charts to track Vehicle_efficiency and performance to give Manufacturersa clear picture
@@ -79,8 +74,6 @@ into how they can improve Fuel_Types efficiency and maximise market opportunitie
 
 *1.) This analysis shows that each Vehicle makes and their cost, fuel_type and fuel_system varies.*
 *2.) The analysis also show us the make with the highest number of Vehicle base on cost and horsepower etc.*
-
-
 
 
    
